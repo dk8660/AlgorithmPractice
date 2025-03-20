@@ -20,8 +20,7 @@ def dijkstra(graph, start, n):
     
     return distance
 
-input = sys.stdin.read  
-data = input().split("\n")
+data = sys.stdin.readlines()
 
 n, e = map(int, data[0].split(" "))
 k = int(data[1]) # 시작점
